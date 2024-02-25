@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: "Grtsk Peta", sans-serif;
+    width: 100%;
+    height: 205px;
+}
+
+.up-header {
+    display: flex;
+    background: #000;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.left-group {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.store-help-blog span{
+    margin-left: 15px;
+}
+
+.store-help-blog button {
+    border: none;
+    background: none;
+    color: #f2f2f2;
+    padding-left: 10px;
+}
+
+.left-group span, .right-group span, .left-group select {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 167%;
+    letter-spacing: -0.02em;
+}
+
+.left-group select {
+    background: none;
+    border: none;
+    color: #f2f2f2;
+    font-family: "Grtsk Peta", sans-serif;
+    margin-bottom: 15px;
+    width: 75px;
+}
+
+.left-group img {
+    margin-right: 20px;
+}
+
+.right-group {
+    margin-top: 15px;
+    margin-left: 700px;
+}
+
+.right-group span {
+    margin-left: 10px;
+}
+
+.right-group img {
+    margin-left: 20px;
+}
+
+.down-header {
+    display: flex;
+    height: 94px;
+    background: #fff;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.02);
+}
+
+.left-buttons {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.left-buttons button { 
+    border: none;
+    background: none;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.left-buttons button:hover {
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+.right-buttons {
+    margin-left: 450px;
+    display: flex;
+}
+
+.right-buttons button {
+    margin-top: 40px;
+    border: none;
+    background: none;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-navigation {
+    height: 60px;
+    background-color: #f9f9f9;
+}
+
+.header-navigation nav {
+    margin-left: 80px;
+}
+
+.header-navigation button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 179%;
+    letter-spacing: -0.02em;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    margin-right: 50px;
+}
+
+.sale {
+    color: #eb5757;
+}
