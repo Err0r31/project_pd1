@@ -6,7 +6,7 @@ const UpHeader = (props) => {
     return (
         <div className="up-header">
             <div className="left-group">
-                <Picture info={{ way: './img/Vector.png', alt: '1' }} />
+                <Picture info={{ way: 'https://i.ibb.co/rMv3FDs/Vector.png', alt: '1' }} />
                 <span>Ваш регион доставки:</span>
                 <select>
                     <option value="Mocsow">Москва</option>
@@ -20,11 +20,11 @@ const UpHeader = (props) => {
                 </div>
             </div>
             <div className="right-group">
-                <Picture info={{way: './img/Group 5.png', alt: '2'}}/>
+                <Picture info={{way: 'https://i.ibb.co/rMv3FDs/Vector.png', alt: '2'}}/>
                 <span>Бесплатная доствака*</span>
-                <Picture info={{ way: './img/Group 5.png', alt: '3' }} />
+                <Picture info={{ way: 'https://i.ibb.co/rMv3FDs/Vector.png', alt: '3' }} />
                 <span>Оплата при получении</span>
-                <Picture info={{ way: './img/Group 5.png', alt: '4' }} />
+                <Picture info={{ way: 'https://i.ibb.co/rMv3FDs/Vector.png', alt: '4' }} />
                 <span>Возврат в течение 14 дней</span>
             </div>
         </div>
