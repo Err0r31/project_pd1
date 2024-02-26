@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 header {
     font-family: "Grtsk Peta", sans-serif;
     width: 100%;
@@ -138,4 +142,51 @@ header {
 
 .sale {
     color: #eb5757;
+}
+
+.photo-slider {
+  position: relative;
+  margin: 0 auto;
+  width: 100%; 
+  margin-top: 20px;
+}
+
+.photo-slider img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 482;
+}
+
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5); 
+  border: none;
+  color: black;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.arrow-button.prev {
+  left: 0;
+}
+
+.arrow-button.next {
+  right: 0;
+}
+
+.logos-container {
+    display: flex;
+    height: 75px;
+    margin: 0 auto;
+    width: 1300px;
+    margin-top: 50px;
+}
+
+.logos-container img {
+    margin: 0 auto;
+    height: 55px;
 }
